@@ -22,8 +22,8 @@ We want to build a cab booking platform that allows a rider to book a cab.
 - **Register Rider**
 - **Register Driver**
 - **Book a Cab:** Rider selects a location and attempts to book a cab.
-- **Driver Matching Strategy:** Implement a strategy to match drivers with riders.
-- **Pricing Strategy:** Implement a strategy to calculate trip pricing.
+- **Driver Matching Strategy:** Implement strategies to match drivers with riders, such as nearest driver, default assignment, or based on driver ratings.
+- **Pricing Strategy:** Implement flexible strategies to calculate trip fares, such as distance-based, time-based, or dynamic pricing (e.g., surge pricing).
 - **Trip Details:** Each trip includes Rider, Driver, Source, Destination, PricingStrategy, and DriverMatchingStrategy.
 - **Payment:** Riders pay the trip amount.
 - **Payment Modes:** Support multiple payment methods.
