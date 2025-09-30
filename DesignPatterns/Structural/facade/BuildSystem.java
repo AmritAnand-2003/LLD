@@ -1,8 +1,10 @@
+package DesignPatterns.Structural.facade;
+
 public class VersionControlSystem{
-    public void pullLatestChanges(string branch){
-        system.out.println("VCS: Pulling latest changes from '" + branch "'...");
+    public void pullLatestChanges(String branch){
+        System.out.println("VCS: Pulling latest changes from '" + branch + "'...");
         simulateDelay();
-        system.out.println("VCS: Pull complete.");
+        System.out.println("VCS: Pull complete.");
     }
 
     private void simulateDelay() {
